@@ -23,13 +23,14 @@ pygtk.require('2.0')
 import os
 import alsaaudio
 
+
 class Mixer:
     __h = 40
     __home = os.environ['HOME'] + "/.pyMixer/"
     __activeFile = __home + "channels"
     __phoneCallFile = "/usr/share/shr/scenarii/gsmhandset.state"
-    #__phoneCallFile = "./gsmhandset.state" # For testing with a copy of the file
-    __channels = ['PCM', 'Headphone'] # Default channels
+    #__phoneCallFile = "./gsmhandset.state"  # For testing with a copy of the file
+    __channels = ['PCM', 'Headphone']  # Default channels
 
     def __init__(self):
         # Check that the folder and channels file exists
@@ -115,11 +116,11 @@ class Mixer:
 
         # Create the sliders for the selected alsa channels
         for c in self.__channels:
-            c = c.replace("\n", "") # Trim the name of the channel
+            c = c.replace("\n", "")  # Trim the name of the channel
             label = gtk.Label(c)
             self.__sldvbox.pack_start(label, False, False, 0)
             label.show()
-            mixer = alsaaudio.Mixer(c) # The channel controller
+            mixer = alsaaudio.Mixer(c)  # The channel controller
             # There are two values for each channel, here I asume both are
             # the same. Each slider controls both, right and left subchannels
             volume = float(mixer.getvolume()[0])
@@ -184,7 +185,7 @@ class Mixer:
 
     def __callback_options(self, widget):
         self.__clean()
-        mixers = alsaaudio.mixers() # List of channels
+        mixers = alsaaudio.mixers()  # List of channels
         for m in mixers:
             cb = gtk.CheckButton(m)
             active = self.__channels.count(m + "\n") > 0
@@ -200,14 +201,14 @@ class Mixer:
 
     def __callback_save_options(self, widget):
         fich = open(self.__activeFile, "w")
-        self.__channels = [] # Reset the selected list
+        self.__channels = []  # Reset the selected list
         for cb in self.__sldvbox.get_children():
-            if cb.get_active(): # If the check box is ticked
+            if cb.get_active():  # If the check box is ticked
                 fich.write(cb.get_label())
                 fich.write("\n")
                 self.__channels.append(cb.get_label() + "\n")
         fich.close()
-        self.__callback_cancel_options() # Reload the sliders
+        self.__callback_cancel_options()  # Reload the sliders
 
     def __callback_cancel_options(self, widget=None):
         self.__clean()
