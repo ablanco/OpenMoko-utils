@@ -1,0 +1,9 @@
+Package: checklist
+Priority: optional
+Version: 1.0
+Architecture: noarch
+Section: extras
+Maintainer: Alejandro Blanco <alejandro.b.e@gmail.com>
+Depends: python, python-pygtk
+Description: A very simple checklists manager, writed on python using gtk
+Source: /usr/bin/checklist.py

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="check.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/korosu/Code/OpenMoko/Development/pyChecklist/check.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3158">
+      <stop
+         style="stop-color:#3e3e3e;stop-opacity:1;"
+         offset="0"
+         id="stop3160" />
+      <stop
+         style="stop-color:#9c9898;stop-opacity:0;"
+         offset="1"
+         id="stop3162" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3155">
+      <stop
+         style="stop-color:#253276;stop-opacity:1;"
+         offset="0"
+         id="stop3157" />
+      <stop
+         style="stop-color:#7fd1f3;stop-opacity:1;"
+         offset="1"
+         id="stop3159" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3155"
+       id="linearGradient3161"
+       x1="182.85713"
+       y1="356.64789"
+       x2="270"
+       y2="156.6479"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3179">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.015"
+         id="feGaussianBlur3181" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3180"
+       x="-0.37562746"
+       width="1.7512549"
+       y="-0.35046579"
+       height="1.7009316">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="15.414791"
+         id="feGaussianBlur3182" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="233.99498"
+     inkscape:cy="798.25389"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1229"
+     inkscape:window-height="779"
+     inkscape:window-x="42"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient3161);fill-opacity:1;stroke:#626262;stroke-width:3.04465985;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3179)"
+       id="rect2383"
+       width="200"
+       height="200.00035"
+       x="135.71428"
+       y="156.6479"
+       rx="20.304501"
+       ry="20.304501"
+       inkscape:export-xdpi="45.00008"
+       inkscape:export-ydpi="45.00008"
+       transform="matrix(0.9850033,0,0,0.9850033,2.0127664,5.3710416)"
+       inkscape:export-filename="/home/korosu/Code/OpenMoko/pyChecklist/pycheck.png" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:0.62745099999999998;stroke:none;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3180)"
+       id="path2386"
+       sodipodi:cx="208.34396"
+       sodipodi:cy="334.90134"
+       sodipodi:rx="49.244934"
+       sodipodi:ry="52.780472"
+       d="M 257.5889,334.90134 A 49.244934,52.780472 0 1 1 159.09903,334.90134 A 49.244934,52.780472 0 1 1 257.5889,334.90134 z"
+       transform="matrix(1.1844644,0,0,0.1578947,-33.388727,281.51709)" />
+    <path
+       id="check"
+       d="M 152.65192,302.30342 C 152.65192,302.30342 197.80253,325.38253 208.53474,336.14709 L 240.34323,330.63214 C 245.68363,299.51527 278.42623,221.76157 316.14035,189.97207 C 323.01872,180.00592 298.96069,180.55555 281.85218,189.32985 C 256.06716,202.55395 220.72891,275.5152 215.07941,292.57762 C 201.7495,297.6334 181.59,280.81836 181.59,280.81836 L 152.65192,302.30342 z"
+       style="fill:#b9ee1c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+    <path
+       style="opacity:0.1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 155.6875 159.65625 C 144.6075 159.65625 135.6875 168.57625 135.6875 179.65625 L 135.6875 241.46875 C 161.76115 255.13396 196.04304 263.4375 233.59375 263.4375 C 271.71337 263.4375 306.4728 254.88036 332.6875 240.84375 L 332.6875 179.65625 C 332.6875 168.57625 323.76749 159.65625 312.6875 159.65625 L 155.6875 159.65625 z "
+       id="path3189" />
+  </g>
+</svg>
