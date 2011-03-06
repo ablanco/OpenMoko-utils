@@ -63,7 +63,6 @@ class Checklist:
         scrolled_window = gtk.ScrolledWindow()
         scrolled_window.set_border_width(0)
         scrolled_window.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
-        vs_scrollbar = scrolled_window.get_vscrollbar()
         # I'll need the adjustment later to change which part of the checklist
         # is being showed after adding a new element
         self.__scroll_adj = scrolled_window.get_vadjustment()
