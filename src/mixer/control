@@ -1,0 +1,9 @@
+Package: pymixer
+Priority: optional
+Version: 1.0
+Architecture: noarch
+Section: extras
+Maintainer: Alejandro Blanco <alejandro.b.e@gmail.com>
+Depends: python, python-pygtk, python-pyalsaaudio
+Description: A very simple Alsa mixer, written on python using gtk
+Source: /usr/bin/mixer.py
