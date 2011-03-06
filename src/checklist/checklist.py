@@ -22,6 +22,7 @@ import pygtk
 pygtk.require('2.0')
 import os
 
+
 class Checklist:
     __configPath = os.environ['HOME'] + "/.pyChecklist/"
     __storePath = __configPath + "checklists/"
@@ -128,7 +129,7 @@ class Checklist:
         self.__window.show()
 
     def __add(self, widget=None, text="", number=0):
-        w = 40;
+        w = 40
         hbox = gtk.HBox(False, 0)
         # Name of the element
         entry = gtk.Entry(100)
@@ -263,8 +264,8 @@ class Checklist:
         self.__load()
 
     def __callback_restore(self, widget):
-        self.__clean();
-        self.__load();
+        self.__clean()
+        self.__load()
 
     def __save(self):
         if self.__last_active_text == None:
