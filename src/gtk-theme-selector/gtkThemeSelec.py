@@ -22,6 +22,7 @@ import pygtk
 pygtk.require('2.0')
 import os
 
+
 class ThemeSelector:
     # GTK configuration file
     __gtkrc = "/etc/gtk-2.0/gtkrc"
@@ -107,7 +108,8 @@ class ThemeSelector:
         # Show the result at the log area
         iter = self.__log.get_end_iter()
         if ready:
-            self.__log.insert(iter, "You are using now this theme: \n" + s[1] + "\n\n")
+            self.__log.insert(iter, "You are using now this theme: \n" +
+                                    s[1] + "\n\n")
         else:
             self.__log.insert(iter, "There is a problem with your\n" +
                                     self.__gtkrc + ", you will\n" +
@@ -126,7 +128,8 @@ class ThemeSelector:
         # Search the line to modify
         for line in data:
             if line.startswith("gtk-theme-name"):
-                data[i] = "gtk-theme-name = '" + self.__combo.get_active_text() + "'\n"
+                data[i] = ("gtk-theme-name = '" +
+                          self.__combo.get_active_text() + "'\n")
                 done = True
             i = i + 1
         # Write the (modified) content to the file
@@ -136,7 +139,8 @@ class ThemeSelector:
         # Update the log
         iter = self.__log.get_end_iter()
         if done:
-            self.__log.insert(iter, "Theme applied succesfully, please restart\n" +
+            self.__log.insert(iter, "Theme applied succesfully, " +
+                                    "please restart\n" +
                                     "your GTK applications\n\n")
             self.__showCurrent()
         else:
