@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #A GTK theme selector written in Python for the Neo Freerunner phone
-#Copyright (C) 2009  Alejandro Blanco Escudero
+#Copyright (C) 2009-2011  Alejandro Blanco Escudero
 
 #This program is free software: you can redistribute it and/or modify
 #it under the terms of the GNU General Public License as published by
