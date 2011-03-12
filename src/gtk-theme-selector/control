@@ -1,0 +1,9 @@
+Package: theme-gtk-selector
+Priority: optional
+Version: 1.0
+Architecture: noarch
+Section: extras
+Maintainer: Alejandro Blanco <alejandro.b.e@gmail.com>
+Depends: python, python-pygtk, gtk+
+Description: A very simple GTK theme selector, writed on python using gtk
+Source: /usr/bin/gtkThemeSelec.py
